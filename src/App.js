@@ -1,12 +1,7 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Body from "./components/Body";
 
 function App() {
-  return (
-    <div className="bg-slate-500">
-      Namaste Everyone, Let's build Netflix GPT
-    </div>
-  );
+  return <Body />;
 }
 
 export default App;
